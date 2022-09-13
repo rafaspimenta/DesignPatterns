@@ -13,13 +13,12 @@ namespace GeneralTests.Builder
         public void BuilderParameter()
         {
             var emailService = new EMailService();
-            static void builder(EMailService.EmailBuilder b) =>
+
+            emailService.SendEmail(b =>
             b.From("rafael@")
             .To("fernanda@")
             .Subject("Test")
-            .Body("email de test");
-
-            emailService.SendEmail(builder);
+            .Body("email de test"));
 
             Assert.True(true);
         }

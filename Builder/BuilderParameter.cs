@@ -1,4 +1,6 @@
-﻿namespace Builder
+﻿using System;
+
+namespace Builder
 {
     public class Email
     {
