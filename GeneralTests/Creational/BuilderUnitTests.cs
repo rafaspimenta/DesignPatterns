@@ -2,7 +2,7 @@ using Builder;
 
 namespace GeneralTests.Builder
 {
-    public class Builder
+    public class BuilderUnitTests
     {
         [SetUp]
         public void Setup()

@@ -5,3 +5,6 @@
 /.vs
 /Builder/obj
 /Builder/bin/Debug/net6.0
+/GeneralTests/obj/Debug/net6.0
+/GeneralTests/bin/Debug/net6.0
+/GeneralTests/obj
