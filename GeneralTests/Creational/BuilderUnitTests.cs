@@ -1,4 +1,5 @@
 using Builder;
+using NUnit.Framework;
 
 namespace GeneralTests.Builder
 {
@@ -32,6 +33,16 @@ namespace GeneralTests.Builder
                 .Build();
 
             Assert.That(true);
+        }
+
+        [Test]
+        public void LazyFunctionalBuilder()
+        {
+            var person = new PersonBuilder()
+                .Called("Dmitri")
+                .Build();
+
+            Assert.That(person.Name, Is.EqualTo("Dmitri"));
         }
     }
 }
