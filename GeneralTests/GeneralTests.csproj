@@ -18,6 +18,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Creational\Builder\Builder.csproj" />
     <ProjectReference Include="..\Creational\Factory\Factory.csproj" />
+    <ProjectReference Include="..\Creational\Prototype\Prototype.csproj" />
   </ItemGroup>
 
 </Project>

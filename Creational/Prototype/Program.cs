@@ -1,4 +1,6 @@
-﻿namespace Prototype
+﻿using System;
+
+namespace Prototype
 {
     internal class Program
     {
