@@ -10,7 +10,7 @@ namespace Builder
     /// </summary>
     public class PersonBuilder
     {
-        private readonly List<Func<Person, Person>> _actions = new List<Func<Person, Person>>();
+        private readonly List<Func<Person, Person>> _actions = new();
 
         public PersonBuilder Do(Action<Person> action)
         {

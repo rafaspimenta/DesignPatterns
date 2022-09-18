@@ -17,6 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Builder\Builder.csproj" />
+    <ProjectReference Include="..\Factory\Factory.csproj" />
   </ItemGroup>
 
 </Project>
