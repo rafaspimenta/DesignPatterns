@@ -1,4 +1,4 @@
-﻿namespace Builder
+﻿namespace Creational.Builder
 {
     internal class Program
     {

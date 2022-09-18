@@ -1,4 +1,4 @@
-﻿namespace InnerFactory
+﻿namespace Creational.InnerFactory
 {
     public class Point
     {

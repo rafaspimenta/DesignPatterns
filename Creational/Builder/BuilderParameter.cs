@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Builder
+namespace Creational.Builder
 {
     public class Email
     {
@@ -16,25 +16,25 @@ namespace Builder
 
             public EmailBuilder From(string from)
             {
-                this.email.From = from;
+                email.From = from;
                 return this;
             }
 
             public EmailBuilder To(string to)
             {
-                this.email.To = to;
+                email.To = to;
                 return this;
             }
 
             public EmailBuilder Subject(string subject)
             {
-                this.email.Subject = subject;
+                email.Subject = subject;
                 return this;
             }
 
             public EmailBuilder Body(string body)
             {
-                this.email.Body = body;
+                email.Body = body;
                 return this;
             }
         }

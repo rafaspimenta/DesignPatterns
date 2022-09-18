@@ -1,8 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
-namespace Builder
+namespace Creational.Builder
 {
     /// <summary>
     /// We’ll define a lazy builder that only constructs the object when its Build() method is called. 

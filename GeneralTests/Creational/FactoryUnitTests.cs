@@ -1,4 +1,4 @@
-using Factory;
+using Creational.Factory;
 using NUnit.Framework;
 
 namespace GeneralTests.Factory
@@ -22,7 +22,7 @@ namespace GeneralTests.Factory
         [Test]
         public void InnerFactoryMethod()
         {
-            var cartesian = InnerFactory.Point.Factory.NewCartesianPoint(10, 20);
+            var cartesian = Creational.InnerFactory.Point.Factory.NewCartesianPoint(10, 20);
             var polar = Point.NewPolarPoint(20, 30);
 
             Assert.True(true);
@@ -38,7 +38,7 @@ namespace GeneralTests.Factory
         [Test]
         public void GenericAbstractFactory()
         {
-            var shape = AbstractFactoryGeneric.SimpleShapeFactory.Create<AbstractFactoryGeneric.RoundedSquare>();
+            var shape = Creational.AbstractFactoryGeneric.SimpleShapeFactory.Create<Creational.AbstractFactoryGeneric.RoundedSquare>();
             shape.Draw();
             Assert.True(true);
         }

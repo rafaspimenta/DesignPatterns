@@ -10,3 +10,9 @@
 /GeneralTests/obj
 /Factory/obj
 /Factory/bin/Debug/net6.0
+/Creational/Builder/obj
+/Creational/Builder/bin/Debug/net6.0
+/Creational/Prototype/obj
+/Creational/Prototype/bin/Debug/net6.0
+/Creational/Factory/obj
+/Creational/Factory/bin/Debug/net6.0

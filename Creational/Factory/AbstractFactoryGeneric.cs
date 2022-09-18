@@ -1,4 +1,4 @@
-﻿namespace AbstractFactoryGeneric
+﻿namespace Creational.AbstractFactoryGeneric
 {
     public interface IShape
     {

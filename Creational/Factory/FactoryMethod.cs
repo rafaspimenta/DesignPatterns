@@ -1,4 +1,4 @@
-﻿namespace Factory
+﻿namespace Creational.Factory
 {
     public class Point
     {
