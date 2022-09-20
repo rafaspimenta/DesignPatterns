@@ -1,4 +1,6 @@
-﻿namespace Creational.InnerFactory
+﻿using System;
+
+namespace Creational.InnerFactory
 {
     public class Point
     {

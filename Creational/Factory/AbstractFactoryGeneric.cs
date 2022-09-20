@@ -1,4 +1,6 @@
-﻿namespace Creational.AbstractFactoryGeneric
+﻿using System;
+
+namespace Creational.AbstractFactoryGeneric
 {
     public interface IShape
     {

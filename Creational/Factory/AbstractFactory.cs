@@ -1,4 +1,6 @@
-﻿namespace Creational.Factory
+﻿using System;
+
+namespace Creational.Factory
 {
     public enum Shape
     {

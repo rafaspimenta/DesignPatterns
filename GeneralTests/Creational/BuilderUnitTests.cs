@@ -1,7 +1,7 @@
 using Creational.Builder;
 using NUnit.Framework;
 
-namespace GeneralTests.Builder
+namespace GeneralTests.Creational.Builder
 {
     public class BuilderUnitTests
     {

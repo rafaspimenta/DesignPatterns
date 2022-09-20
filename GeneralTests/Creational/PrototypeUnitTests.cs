@@ -2,7 +2,7 @@ using Creational.Factory;
 using Creational.Prototype;
 using NUnit.Framework;
 
-namespace GeneralTests.Prototype
+namespace GeneralTests.Creational.Prototype
 {
     public class PrototypeUnitTests
     {
@@ -14,7 +14,6 @@ namespace GeneralTests.Prototype
         [Test]
         public void SerializerCopyPrototype()
         {
-
             var john = new Person(
               "John Smith",
               new Address("London Road", 123));
