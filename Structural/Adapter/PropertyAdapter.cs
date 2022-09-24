@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Xml.Serialization;
 
-namespace Structural
+namespace Structural.Adapter
 {
     public class CountryStats
     {

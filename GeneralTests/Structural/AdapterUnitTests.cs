@@ -3,7 +3,6 @@ using System.IO;
 using System.Text;
 using System.Xml.Serialization;
 using System;
-using Structural;
 using System.Xml;
 using Structural.Adapter;
 using System.Collections.Generic;
