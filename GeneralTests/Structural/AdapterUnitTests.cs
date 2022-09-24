@@ -53,5 +53,14 @@ namespace GeneralTests.Structural
 
             Assert.That(true, Is.True);
         }
+
+        [Test]
+        public void GenericValueAdaterTest()
+        {
+            var v = Vector2i.Create(8, 9);
+            var vv = Vector2i.Create(3, 2);
+            var result = vv + v;
+            Assert.That(true, Is.True);
+        }
     }
 }
