@@ -9,4 +9,9 @@
     <PackageReference Include="ImpromptuInterface" Version="7.0.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="_Flyweight\" />
+    <Folder Include="_Facade\" />
+  </ItemGroup>
+
 </Project>
