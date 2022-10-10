@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Behavioral.ChainOfResponsability
+namespace Behavioral.ChainOfResponsibility
 {
     public class Creature
     {

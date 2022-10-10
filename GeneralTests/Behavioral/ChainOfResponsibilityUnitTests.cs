@@ -1,9 +1,9 @@
-﻿using Behavioral.ChainOfResponsability;
+﻿using Behavioral.ChainOfResponsibility;
 using NUnit.Framework;
 
 namespace GeneralTests.Behavioral
 {
-    public class ChainOfResponsabilityUnitTests
+    public class ChainOfResponsibilityUnitTests
     {
         [Test]
         public void CreatureModifierTest()
